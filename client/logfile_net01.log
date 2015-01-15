@@ -1,0 +1,144 @@
+read_config_file :  IV : mklmsncxjbsucyds
+read_config_file :  port : 6062
+Receiver Thread : Receiver Started .........
+read_password_file :  longtimeSharedkey_cb : e34b012a5c72e0a9fe77ef4e2dca1ed
+Client : Sending message :Hello paypal
+read_config_file :  port : 6062
+read_config_file :  paypal : net02.utdallas.edu
+-------------------------------------------------------------
+Client Thread : Message sent to host : paypal hostname :net02.utdallas.edu
+Client Thread : Sent Message is :
+Client : Client msg_type : Hello_Msg cipher : [B@f970646
+-------------------------------------------------------------
+Receiver Thread : Received a Message : 
+Sender :Broker Msg_type :Challenge_Msg Cipher :[B@6d8177ca
+set_msg : Dumping msg from receiver to syncmsg
+set_msg : Leaving set_msg
+get_msg : Received msg from syncmsgs: 
+---------------------------------------------------------------------
+Sender : Broker msg_type : Challenge_Msg cipher : [B@6d8177ca
+---------------------------------------------------------------------
+Client Thread : After decryption, received msg is :91
+Client Thread : Sending msg : 92
+read_config_file :  port : 6062
+read_config_file :  paypal : net02.utdallas.edu
+-------------------------------------------------------------
+Client Thread : Message sent to host : paypal hostname :net02.utdallas.edu
+Client Thread : Sent Message is :
+Client : Client msg_type : Challenge_Msg cipher : [B@37b335b7
+-------------------------------------------------------------
+Receiver Thread : Received a Message : 
+Sender :Broker Msg_type :BC_Session_Key Cipher :[B@4ee6d1d6
+set_msg : Dumping msg from receiver to syncmsg
+set_msg : Leaving set_msg
+get_msg : Received msg from syncmsgs: 
+---------------------------------------------------------------------
+Sender : Broker msg_type : BC_Session_Key cipher : [B@4ee6d1d6
+---------------------------------------------------------------------
+Client Thread : After decryption, received msg is :javax.crypto.spec.SecretKeySpec@fffe87a7
+Client Thread : Sending msg : Connect me to amazon
+read_config_file :  port : 6062
+read_config_file :  paypal : net02.utdallas.edu
+-------------------------------------------------------------
+Client Thread : Message sent to host : paypal hostname :net02.utdallas.edu
+Client Thread : Sent Message is :
+Client : Client msg_type : Connect_Msg cipher : [B@4032a615
+-------------------------------------------------------------
+Receiver Thread : Received a Message : 
+Sender :Broker Msg_type :Connection_Established_With_WebServer Cipher :null
+set_msg : Dumping msg from receiver to syncmsg
+set_msg : Leaving set_msg
+get_msg : Received msg from syncmsgs: 
+---------------------------------------------------------------------
+Sender : Broker msg_type : Connection_Established_With_WebServer cipher : null
+---------------------------------------------------------------------
+Client Thread :  received msg that connection is established :
+read_password_file :  PubKey Modulus : 27830809066991366780094338038703463319291738085604520421270346594202730552510032009527439306114287513304512967980404852771617710977745235556262285443991192608284575261288421668413236948324841939006602650422047063549509260106431542528495109029044127126936786626647882305154288714502176747625451792675861384551178759161075255662023238909315412417550024090674881867808259070761705151893712639972520936874583935695410734101772332265101608649790023928132390212375779747488013183319034048971138429355384531813095438632277158352973953228350331546254155852503996479086838170443110518483809765190079827626296733956992008930481
+read_password_file :  PubKey Exponent : 65537
+Client Thread : Sending session key to webserver: javax.crypto.spec.SecretKeySpec@fffe8bf5
+read_config_file :  port : 6062
+read_config_file :  paypal : net02.utdallas.edu
+-------------------------------------------------------------
+Client Thread : Message sent to host : paypal hostname :net02.utdallas.edu
+Client Thread : Sent Message is :
+Client : Client msg_type : CW_Session_Key cipher : [B@7a3f437c
+-------------------------------------------------------------
+Receiver Thread : Received a Message : 
+Sender :Broker Msg_type :Catalogue_Msg Cipher :[B@c487600
+set_msg : Dumping msg from receiver to syncmsg
+set_msg : Leaving set_msg
+get_msg : Received msg from syncmsgs: 
+---------------------------------------------------------------------
+Sender : Broker msg_type : Catalogue_Msg cipher : [B@c487600
+---------------------------------------------------------------------
+Client Thread : Received Catalogue file: 
+Webserver 	Catalog 
+Items	Cost 
+Book1	$10 
+Book2	$11
+Book3	$12
+Book4	$13
+Book5	$14
+Book6	$15
+Book8	$16
+Book9	$17
+Song1	$20
+Song2	$21
+Song3	$22
+Song4	$23
+Song5	$24
+Song6	$25
+Song7	$26
+Song8	$27
+Client Thread : Sending msg :Song5
+read_config_file :  port : 6062
+read_config_file :  paypal : net02.utdallas.edu
+-------------------------------------------------------------
+Client Thread : Message sent to host : paypal hostname :net02.utdallas.edu
+Client Thread : Sent Message is :
+Client : Client msg_type : Request_Product cipher : [B@3507012c
+-------------------------------------------------------------
+Client Thread : Sending msg : Pay web server $20
+read_config_file :  port : 6062
+read_config_file :  paypal : net02.utdallas.edu
+-------------------------------------------------------------
+Client Thread : Message sent to host : paypal hostname :net02.utdallas.edu
+Client Thread : Sent Message is :
+Client : Client msg_type : Pay_For_Product cipher : [B@6ba26eb1
+-------------------------------------------------------------
+Receiver Thread : Received a Message : 
+Sender :Broker Msg_type :Sign_Document Cipher :[B@30ea06a1
+set_msg : Dumping msg from receiver to syncmsg
+set_msg : Leaving set_msg
+get_msg : Received msg from syncmsgs: 
+---------------------------------------------------------------------
+Sender : Broker msg_type : Sign_Document cipher : [B@30ea06a1
+---------------------------------------------------------------------
+Client Thread : After decryption, received msg is :
+Client ID : 1
+Purchase ID : 1
+Purchased Date : 12/16/2014 11:06:15 AM
+Webserver : amazon
+Purchase Amount : 20
+
+read_password_file :  MyPrivateKey Modulus : 19799366950186382951544293613885567529094990528462259718397546017270452406847685570253392356115605353418239158303490041332246859745899381323697083140846920197342509705132088062941202998833675304956138832628453336139973977043127067221726687362880051069204837509362074007163468624975283514112664823531586480655934656881394707397759990474979265166059325655712980173951829722560031791054590683095202841872132117764508535796689869314791545925894072905229583440972205431422607212840213222450775097367786347820919350803506977013460981025667063153915997116795108011738406925444469555398747416484109841283195621461805579963683
+read_password_file :  MyPrivateKey Exponent : 5084507160407660177830698102166624983057947275493535423663437439471774936406099579586563213961970155759784015659058812512347447236270909374518545390549669147523909216738224851599866433775893852059322467508992929905790042779434953405582497647394162984187823905314001335742575597881105658521387139784192142903011026509379721005280035320321656931285748664565280126336499669334841466933413130774736047523787523123771737499742004556226310969147437645766032037471219602279667401587260786329652848272404200186715004661933472370008624283911866550177256061577463538635318371452139729003111047377143513231021459058176320866193
+Client Thread : Sending document to broker 
+read_config_file :  port : 6062
+read_config_file :  paypal : net02.utdallas.edu
+-------------------------------------------------------------
+Client Thread : Message sent to host : paypal hostname :net02.utdallas.edu
+Client Thread : Sent Message is :
+Client : Client msg_type : Signed_Document cipher : [B@3c45950
+-------------------------------------------------------------
+Receiver Thread : Received a Message : 
+Sender :Broker Msg_type :Transaction_Failed Cipher :[B@31730d7b
+set_msg : Dumping msg from receiver to syncmsg
+set_msg : Leaving set_msg
+get_msg : Received msg from syncmsgs: 
+---------------------------------------------------------------------
+Sender : Broker msg_type : Transaction_Failed cipher : [B@31730d7b
+---------------------------------------------------------------------
+Client Thread : After decryption, received msg is :
+Invalid Payment Amount, Payment failed
+Client Thread : Transaction Failed, Now Closing the Connection .......

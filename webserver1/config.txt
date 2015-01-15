@@ -1,0 +1,9 @@
+port : 6062
+IV : mklmsncxjbsucyds
+
+client : net01.utdallas.edu
+paypal : net02.utdallas.edu
+amazon : net03.utdallas.edu
+ebay : net04.utdallas.edu
+jabong : net05.utdallas.edu
+
