@@ -8,7 +8,6 @@ It consists of three components namely Client, Broker and Web servers. The main 
 The Source code contains four different folders imitating the following -
 
 1. Broker machine - One which facilitates a secure purchase of online item between the client and the web server
-
 2. Client machine  - One who purchases the online item
 3. Webserver1 machine - Acts like a real time web server (imitation of amazon.com) and allows client to purchase the online item available on it's site
 4. Webserver2 machine - Another webserver serving the same purpose as Webserver1 (imitation of ebay.com).
