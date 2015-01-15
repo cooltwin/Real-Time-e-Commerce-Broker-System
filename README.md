@@ -12,13 +12,13 @@ The Source code contains four different folders imitating the following -
 3. Webserver1 machine - Acts like a real time web server (imitation of amazon.com) and allows client to purchase the online item available on it's site
 4. Webserver2 machine - Another webserver serving the same purpose as Webserver1 (imitation of ebay.com).
 
+
 SYSTEM COMPONENTS AND ITS IMPLEMENTATION :
 
 Implementation Language: JAVA
 Following are the files present on each of the above machines -
 1)	AES.java – Encryption and Decryption using AES protocol.
-2)	ecommerce_client.java, ecommerce_broker.java, ecommerce_webserver.java – Main class for implementing client, broker and web server components respectively.
-    Note - Client machine has ecommerce_client.java. Broker machine has ecommerce_broker.java. Webserver machine has ecommerce_webserver.java. 
+2)	ecommerce_client.java, ecommerce_broker.java, ecommerce_webserver.java – Main class for implementing client, broker and web server components respectively. Note - Client machine has ecommerce_client.java, Broker machine has ecommerce_broker.java and  Webserver machine has ecommerce_webserver.java. 
 3)	Message.java - Class for implementing Message type. A Message object contains sender type , message type, cipher text and  message mac in it
 4)	MiscellaneousWork.java – Class for reading configuration and password files and logging of the messages.
 5)	RSA.java – Class for encrypting and decrypting using the public and private key between client and web server.
@@ -28,18 +28,20 @@ Following are the files present on each of the above machines -
 
 Hence Each machine at a time runs two threads in parallel - Broker Thread/Client Thread/Webserver Thread and Receiver Thread
 
+
 SYSTEM DESCRIPTION :
 
 The system will ensure the following rules:
 1. Client can browse to different e-Commerce site through Broker System.
-2. Client’s profile as well as location is hidden from the e-Commerce site.
-3. Broker System knows the Client and e-Commerce site but does not know about the purchased e-Product (music, movie or Application) or its contents.
+2. 2. Client’s profile as well as location is hidden from the e-Commerce site.
+3. 3. Broker System knows the Client and e-Commerce site but does not know about the purchased e-Product (music, movie or Application) or its contents.
 4. Broker System pays for the e-Product to the e-Commerce site.
 5. Broker System has sufficient information about a purchase transaction (but not what is purchased) by a Client which can help to protect against non-repudiation.
 
+
 GOAL OF THE PROJECT:
 
-1)	AUTHENTICATION
+1)	AUTHENTICATION 
 Each of the components should be able to authenticate each other. Following is a description of how the authentication occurs between each pair of components of the system -
 Client and Broker – Long Time Shared key
 Broker and Web server – Long Time Shared key
