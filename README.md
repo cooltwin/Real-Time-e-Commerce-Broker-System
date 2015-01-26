@@ -6,7 +6,7 @@ INTRODUCTION :
 Real Time e-Commerce Broker System facilitates anonymous online purchase process between a Client and an e-Commerce Website.
 It consists of three components namely Client, Broker and Web servers. The main goal of this project is to ensure the simulation of the purchase of a product in a secure way across the insecure network. Inorder to achieve this goal, features like Authentication, Message Integrity, Privacy, Anonymity and  Non- repudiation has to be implemented.
 
-The Source code contains four different folders imitating the following -
+The source code contains four different folders imitating the following -
 
 * Broker machine - One which facilitates a secure purchase of online item between the client and the web server
 * Client machine  - One who purchases the online item
