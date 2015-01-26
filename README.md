@@ -18,13 +18,13 @@ SYSTEM COMPONENTS AND ITS IMPLEMENTATION :
 Implementation Language: JAVA
 Following are the files present on each of the above machines -
 - AES.java : Encryption and Decryption using AES protocol.
-- ecommerce_client.java, ecommerce_broker.java, ecommerce_webserver.java : Main class for implementing client, broker and web server components respectively. Note - Client machine has ecommerce_client.java, Broker machine has ecommerce_broker.java and  Webserver machine has ecommerce_webserver.java. 
+- Ecommerce_Client.java, Ecommerce_Broker.java, Ecommerce_Webserver.java : Main class for implementing client, broker and web server components respectively. Note - Client machine has ecommerce_client.java, Broker machine has ecommerce_broker.java and  Webserver machine has ecommerce_webserver.java. 
 -	Message.java : Class for implementing Message type. A Message object contains sender type , message type, cipher text and  message mac in it
 -	MiscellaneousWork.java : Class for reading configuration and password files and logging of the messages.
 -	RSA.java : Class for encrypting and decrypting using the public and private key between client and web server.
 -	Receiver.java : Class for handling the receiver thread.
 -	SyncMsgs.java : Class for maintaining synchronization among the threads.
-- logfile : Contains the program generated logs.
+- Logfile : Contains the program generated logs.
 
 Hence Each machine at a time runs two threads in parallel - Broker Thread/Client Thread/Webserver Thread and Receiver Thread
 
