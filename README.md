@@ -12,7 +12,7 @@ The Source code contains four different folders imitating the following -
 * Webserver1 machine - Acts like a real time web server (imitation of amazon.com) and allows client to purchase the online item available on it's site
 * Webserver2 machine - Another webserver serving the same purpose as Webserver1 (imitation of ebay.com).
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 SYSTEM COMPONENTS AND ITS IMPLEMENTATION :
 
 Implementation Language: JAVA
@@ -28,7 +28,7 @@ Following are the files present on each of the above machines -
 
 Hence Each machine at a time runs two threads in parallel - Broker Thread/Client Thread/Webserver Thread and Receiver Thread
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 SYSTEM DESCRIPTION :
 
 The system will ensure the following rules:
@@ -39,7 +39,7 @@ The system will ensure the following rules:
 * Broker System has sufficient information about a purchase transaction (but not what is purchased) by a Client which can help to protect against non-repudiation.
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 GOAL OF THE PROJECT:
 
 1)	AUTHENTICATION  : Each of the components should be able to authenticate each other. Following is a description of how the authentication occurs between each pair of components of the system -
