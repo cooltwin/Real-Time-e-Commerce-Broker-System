@@ -14,6 +14,7 @@ The Source code contains four different folders imitating the following -
 
 -----------------------------------------------------------------------------------------------------------------------------
 SYSTEM COMPONENTS AND ITS IMPLEMENTATION :
+-----------------------------------------------------------------------------------------------------------------------------
 
 Implementation Language: JAVA
 Following are the files present on each of the above machines -
@@ -30,6 +31,7 @@ Hence Each machine at a time runs two threads in parallel - Broker Thread/Client
 
 -----------------------------------------------------------------------------------------------------------------------------
 SYSTEM DESCRIPTION :
+-----------------------------------------------------------------------------------------------------------------------------
 
 The system will ensure the following rules:
 * Client can browse to different e-Commerce site through Broker System.
@@ -41,6 +43,7 @@ The system will ensure the following rules:
 
 -----------------------------------------------------------------------------------------------------------------------------
 GOAL OF THE PROJECT:
+-----------------------------------------------------------------------------------------------------------------------------
 
 1)	AUTHENTICATION  : Each of the components should be able to authenticate each other. Following is a description of how the authentication occurs between each pair of components of the system -
 Client and Broker – Long Time Shared key
